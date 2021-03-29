@@ -1,0 +1,56 @@
+git config --global user.name "Shyam"
+
+git config --global user.email "makwanashyyam6@gmail.com"
+
+git config --list
+
+git config user.name
+
+git config user.email
+
+git status
+
+git init
+
+git status
+
+git add --a
+
+git status
+
+git commit -m "Initial Commit"
+
+git status
+
+git log
+
+//change the content of git.txt & myword.docx
+
+git status
+
+git add git.txt
+
+git status
+
+***********************SSH Key generation*******
+
+ssh-keygen -t rsa -b 4096 -C "makwanashyam1633@gmail.com"
+
+eval `ssh-agent -s`
+
+ssh-add ~/.ssh/id_rsa
+
+tail ~/.ssh/id_rsa.pub
+
+Output of above command will be a SSH Key
+
+create a new ssh key on github and paste this key in it.
+
+git push -u origin master
+
+**********************************************
+alias command(short command)
+
+git config --global alias.st status
+
+git config --global alias.ci commit
